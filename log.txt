@@ -1,0 +1,15 @@
+Start: Tues, 28 Apr 2015 14:30:00 -0800
+End: Tues, 28 Apr 2015 16:30:00 -0800
+Tasks: Started and completed multtable.php problem.  All done except accepting variables via get/post (variables are currently hardcoded to make sure everything works as it should)
+
+Start: Thur, 30 Apr 2015 21:00:00 -0800
+End: Thur, 30 Apr 2015 23:47:00 -0800
+Tasks: Created login.php and content1.php.  For the most part, the major parts are done.  I am having a very difficult time figuring out how to destroy a user session and have spent over an hour on that issue alone.
+
+Start: Sat, 2 May 2015 20:58:00 -0800
+End: Sun, 3 May 2015 01:04:00 -0800
+Tasks:  I finalized my logout functionality in login.php.  I built content2.php, but am having a hard time passing variables across pages, so that has taken me some time and isn't quite resolved.  I also built loopback.php and apart from a couple of square brackets in the output, I have that complete as well.
+
+Start: Sun, 3 May 2015 18:10:00 -0800
+End: Sun, 3 May 2015 22:20:00 -0800
+Tasks:  Finalized multtable.php so the variables are no longer hardcoded and it accepts a get request.  In the login.php project I corrected the code so now it counts correctly when someone moves back and forth between content1 and content2.  I also added code so that you cannot directly go to content1 or content2 unless you are logged in and click the links.  Finally, I finished loopback.php by doing some work so the output was correct. I also had a bug that took me over an hour to fix that had to do with how I was stepping through a nested array.
